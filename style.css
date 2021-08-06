@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 60%;
+}
+
+main {
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px 0;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.modulo1,
+.modulo2,
+.modulo3 {
+    background-color: lightblue;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.itens {
+    padding: 5px 5px 5px 30px;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+}
