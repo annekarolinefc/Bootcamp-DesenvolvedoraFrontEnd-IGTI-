@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: purple;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+    float: left;
+    width: 50%;
+}
+
+.textos {
+    background-color: red;
+    height: 250px;
+    padding-top: 150px;
+    padding-right: 30px;
+    color: yellow;
+}

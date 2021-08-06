@@ -1,0 +1,14 @@
+--- O QUE É ACESSIBILIDADE ---
+Prática de tornar conteúdos e funcionalidades acessiveis a todos os usuários:
+    - idosos;
+    - deficientes;
+    - usuários com restrições temporarias
+
+--- OS QUATRO PRINCIPIOS DA ACESSIBILIDADE ---
+    - Perceptível: perceber o conteudo em si, ser adaptavel.
+    - Operável: tempo suficiente, acessivel ao teclado, convulsao (evitar coisas piscando) e navegavel
+    - Compreensível: legível, previsível e assistencia de entrada (nome? será nome completo? apelido?? use placeholder)
+    - Robusto: compativel a todos os dispositivos e compativel com a tecnologia mais recente
+
+
+--- 12 DIRETRIZES DA ACESSIBILIDADE ---
