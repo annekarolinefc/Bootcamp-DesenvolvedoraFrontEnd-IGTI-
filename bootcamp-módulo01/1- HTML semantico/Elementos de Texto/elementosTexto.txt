@@ -1,0 +1,13 @@
+Os elementos a npivel de texto são: 
+- a
+- em
+- strong
+- small
+- cite
+- time
+- sub
+- sup
+- i
+- b
+- span
+- br

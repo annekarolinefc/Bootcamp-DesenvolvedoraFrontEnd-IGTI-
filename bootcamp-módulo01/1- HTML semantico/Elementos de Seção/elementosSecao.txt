@@ -1,0 +1,8 @@
+Os elementos de seção São: 
+- header
+- nav
+- main
+- aside
+- section
+- article
+- footer

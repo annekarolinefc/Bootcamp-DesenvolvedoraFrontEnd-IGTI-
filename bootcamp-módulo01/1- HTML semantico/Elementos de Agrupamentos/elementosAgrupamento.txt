@@ -1,0 +1,8 @@
+São elementos de nível de parágrafo
+são eles:
+- <p>
+- <blockquote>
+- <hr>
+- listas <ol>, <ul> e <li>
+- Figuras: <figure><figcaption>
+- <div>

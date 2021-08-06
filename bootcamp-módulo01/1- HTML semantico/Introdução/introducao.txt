@@ -1,0 +1,11 @@
+São convenções estruturais razoavelmente padronizadas
+- cabeçalhos
+- rodapé
+- barra lateral
+- barra de navegação
+________________________________________________________________________________________________________
+
+O HTML semântico é o proposito de cada elemento de uma página, sendo agrupados em:
+- elementos de seção
+- elementos de agrupamento
+- elementos em nível de texto
