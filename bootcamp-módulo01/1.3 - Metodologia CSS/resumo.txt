@@ -1,0 +1,39 @@
+- METODOLOGIA CSS
+são padroes de nomeclatura para organizar códigos de CSS
+
+
+---- MÉTODOLOGIAS MAIS USADAS ----
+1- METODOLOGIA OOCSS - OBJECT ORIENTED CSS
+pega conceitos de design orientado a objetos a fim de forncer estrutura para CSS, baseado na aparência do objeto em vez do conteúdo ou funcionalidade
+
+- Separa estrutura da skin
+    - propriedade de estrutura: refere-se ao tamanho e posição dos elementos
+        - height
+        - width
+        - margin
+        - padding
+        -overflow
+        - ...
+    - propriedade de skin: refere-se ao aspecto visual dos elementos
+        - color
+        - border
+        - box-shadow
+        - font
+        - opacity
+        - ...
+
+
+2- METODOLOGIA SMACSS - Scalable and Modular Architecture CSS
+resume em um sistema de categorização para conjunto de regras.
+as Categorias são:
+    - base: estabelece padrões para cada elemento -  não utilizam seletores com classes ou IDs
+    - layout: elementos agregadpres, como header, footer e sidebar. por padrão, usa-se I- como prefixo nos IDs e classes
+    - módulo: demais componentes da página, usando classes com nomes significativos à sua funcionalidade;
+    - estado: estado visualmente dentro dos componentes do design (visible/hidden, active, inactive, etc.) Por padrão, usa-se is- como prefixo nos IDs e classes;
+    - tema: declarações que impactam na aparencia de forma genérica (cores padrões, por exemplo)
+
+3- METODOLOGIA BEM (Block, Element, Modifier)
+abordagem baseada em componentes para desenvolvimento web
+    - block: componente de página logicamente e funcionalmente independente
+    - element: parte constituinte de um bloco que não pode ser usada fora dele;
+    - modifier: define a aparência e o comportamente de um bloco ou elemento

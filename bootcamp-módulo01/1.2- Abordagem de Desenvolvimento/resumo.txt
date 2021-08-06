@@ -1,0 +1,8 @@
+ABORDAGEM DE DESENVOLVIMENTO
+É a abordage que regerá as decisões de quais tecnologias serão usadas:
+Saõ elas:
+
+1- ABORDAGEM GRACEFUL DEGRATION
+
+2- ABORDAGEM PROGRESSIVE ENHANCEMENTE
+
