@@ -1,0 +1,5 @@
+table.comBordas tr + tr
+    elemento TR, imediatamente precedido por um irmao que é um elemento TR
+    descendente de um elemento table
+    com a classe comBordas
+    obs: Ler de tras para frente

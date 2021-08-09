@@ -1,0 +1,14 @@
+:disabled
+    elemento de interface que esteja desabilitado
+:hover
+    elemento cujo mouse esta sobre
+:focus
+    elemento que possui foco do cursos do teclado
+:first-child
+    elemento que é o primeiro filho de seu pai
+:last-child
+    elemento que é o ultimo filho de seu pai
+:empty
+    elemento que nao possui filho
+:not(E)
+    elemento que nao corresponde ao seletor E

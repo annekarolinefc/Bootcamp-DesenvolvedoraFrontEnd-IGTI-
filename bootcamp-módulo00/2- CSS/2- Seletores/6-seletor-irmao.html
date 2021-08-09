@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<style>
+    div,
+    p {
+        border: 2px solid grey;
+        margin: 5px;
+    }
+    /*Elemento div é irmao de div e precedido por div*/
+    
+    div~div {
+        border-style: dashed;
+    }
+    /*elemento div é irmao de div e imediatamente precedido por div*/
+    
+    div+div {
+        border-color: red;
+    }
+</style>
+
+<body>
+    <div>Filho 1: div</div>
+    <p>Filho 2: p</p>
+    <div>Filho 3: div</div>
+    <div>
+        Filho 4: div
+        <div>Filho 4.1: div</div>
+    </div>
+</body>

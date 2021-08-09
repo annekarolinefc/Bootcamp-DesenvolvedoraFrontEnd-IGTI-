@@ -1,0 +1,6 @@
+Critérios para definir a propriedade:
+1. Declaração dentro do atributo style
+2. Quantidade de seletor por ID da regra
+3. Quantidade de seletores por classe ou pseudoclasse da regra
+4. Quantidade de seletores por elemento da regra
+5. Ordem de declaração da regra (última é aplicada)

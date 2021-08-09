@@ -1,0 +1,39 @@
+POSICIONAMENTO FORA DO NORMAL FLOW
+    - controlado pela prorpiedade position
+    - valor static é padrão(normal flow)
+
+    fora do normal flow:
+        - relative
+        - absolute
+        - fixed
+        - sticky
+_______________________________________________________________________________________
+RELATIVE 
+    Posicionado de acordo com o normal flow, mas deslocado de sua posição normal via propriedades:
+    - top
+    - right
+    - bottom
+    - left
+
+    **** referenciado conforme a janela
+_______________________________________________________________________________________
+ABSOLUTE 
+    Posicionado fora do normal flow (não ocupa espaço)
+    Posição definda via propriedades:
+    - top
+    - right
+    - bottom
+    - left
+    relativas ao primeiro elemento pai posicionado (position != static)
+
+    **** referenciado conforme um elemento
+
+_______________________________________________________________________________________
+FIXED
+    Posicionado fora do normal flow (não ocupa espaço)
+    Posição definida via propriedades:
+    - top
+    - right 
+    - bottom
+    - left
+    relativas ao viewport  (não daz scroll)

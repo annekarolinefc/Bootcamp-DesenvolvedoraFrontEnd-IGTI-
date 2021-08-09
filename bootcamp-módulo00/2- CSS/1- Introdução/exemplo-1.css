@@ -1,0 +1,11 @@
+/*SINTAXE BÁSICA DO CSS
+
+seletor {
+bloco de:
+  propriedade: valor
+}*/
+
+div {
+    color: blue;
+    font-size: 18px;
+}

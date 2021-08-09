@@ -1,0 +1,4 @@
+CSS -> Cascading Style Sheets (folha de estilo em cascata)
+Portanto...
+    - HTML define o conteúdo
+    - CSS define a estilização (cor, tamanho, posicionamento, etc.) 

@@ -1,0 +1,3 @@
+a.destaque.grande:disabled
+    Elemento a com classe destaque e grande, que esta desabilitado
+    obs: sem espaços

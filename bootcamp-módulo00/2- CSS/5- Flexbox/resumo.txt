@@ -1,0 +1,21 @@
+FLEXBOX LAYOUT
+- Versátil e poderoso
+- introduzido nas especificações mais recentes do CSS
+
+Habilitado por meio da prorpiedade display:
+    - flex: comporta como block box externamente, e flexbox layout internamente
+    - inline-flex: comporta como inline box externamente, e flexbox layout internamente
+
+
+Os elementos filgos exibidos em linhas ou colunas, de acordo com a propriedade flex-direction
+    Flex-direction:
+        - row (padrão)
+        - column
+
+    é possivel controlar:
+        - alinhamento do eixo principal (justify-content)
+        - alinhamento do eixo transversal (align-items, align-self)
+        - tamanho de cada item (flex, flex-grow, flex-shrink, flex-basis)
+        - quebra de linhas e colunas (flex-wrap)
+_______________________________________________________________________________________
+

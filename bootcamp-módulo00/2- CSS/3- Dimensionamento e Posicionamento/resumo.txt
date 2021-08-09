@@ -1,0 +1,80 @@
+BOX-MODEL: Dimensionamento de elementos
+margin -> border -> padding -> conteúdo
+
+    context-box vs border-box
+div{
+    box-sizing: content-box;
+}
+
+div{
+    box-sizing: border-box;
+}
+_______________________________________________________________________________________
+
+UNIDADES DE MEDIDAS: Unidades de medidas mais usadas
+    px: um ponto na tela
+    cm, mm, in: faz mais sentido para impressão
+    em: tamanho da fonte corrente
+    rem: tamanho da fonte do elemento raix da página
+    vh: 1% da altura da viewport
+    vh: 1% da largura do viewport
+    %: relativo a outra medida (normalmente do elemento pai)
+
+
+_______________________________________________________________________________________
+
+TIPOS DE POSICIONAMENTO:
+    - NORMAL FLOW
+    - TEXT-ALIGN
+    - BASELINE E VERTICAL-ALIGN
+
+_______________________________________________________________________________________
+POSICIONAMENTO DE BOXES
+Se não especificados, segue o normal flor(flow layout)
+
+No nprmal flow temos:
+    - block box;
+        exibido em uma nova linha.
+        largura 100% do espaço disponivel em seu container, por padrão.
+        ex:
+            h1
+            div
+            p
+            ul
+            li
+
+    - inline box;
+        exibido na mesma linha.
+        pode haver quebra de linha se nao houver espaço.
+        width e height não se aplicam.
+        margin, padding e border verticas se comportam diferente.
+        ex:
+            span
+            a
+            img
+            em 
+            strong 
+
+_______________________________________________________________________________________
+
+PROPRIEDADES DO DISPLAY
+É possivel definir, via propriedade display, se um elemento pe um block box ou inline box.
+
+div{
+    display: inline;
+}
+
+
+div{
+    display: block;
+}
+
+É incorreto colocar um elemento com display block dentro de um elemento com display inline(o inline box é quebrado)
+para isso existe o display: inline-block
+    - se comporta como inline externamente
+    - se comporta como block internamente (aceita width, height e etc)
+
+    div{
+    display: inline-block;
+}
+
