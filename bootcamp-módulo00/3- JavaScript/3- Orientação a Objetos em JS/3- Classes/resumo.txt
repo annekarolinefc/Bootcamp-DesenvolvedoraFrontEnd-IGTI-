@@ -1,0 +1,25 @@
+ SINTAXE MODERNA PARA DELCARA CLASSES
+        INTRODUZIDA DO ES6
+
+    class NomeDaClasse{
+        constructor( parametroA, parametroB){
+            this.parametroA;
+            this.parametroB
+        }
+
+        //metodo
+        area(){
+            return calculo
+        }
+
+        imprime(){
+            retorn console.log
+        }
+    }
+
+UTILIZAR HERANÇA ENTRE CLASSES
+    class novaClasse extend classeAnterior{
+        construct(parametroC){
+        super(parametroC, parametroC);
+        }
+    }

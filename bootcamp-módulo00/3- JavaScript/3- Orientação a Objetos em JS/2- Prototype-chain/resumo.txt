@@ -1,0 +1,26 @@
+PROTOTYPE CHAIN
+Mecanismo responsavel pela herança
+
+
+HERANÇA DE PROPRIEDADES
+    Objetos possuem propriedades próprias, mas tambem podem herdar propriedades de outro objeto, o seu prototype.
+
+
+    Ao acessar um propriedades:
+    - busca-se no objeto atual
+    - depois em seu prototype
+    - depois no prototype do prototype
+    - ...
+    - até que nao exista prototype
+
+
+ALTERANDO O PROTOTYPE DE UM CONSTRUTOR
+    function MyConstructor(){
+        //...
+    }
+
+    MyConstructor.prototype.myProp = "some value"
+    
+    var myObj = new MyConstructor();
+    console.log(myObj.myProp) //imprime "some value"
+

@@ -1,0 +1,19 @@
+CLASSES E OBJETOS
+    Em linguagem orientada a objetos, normalmente definimos classe e usamos seus construtor para instanciar objetos.
+    Em JS, qualquer funçõa pode ser usada para instanciar um objeto por meio do operador new.
+        resumindo, nao existe o conceito de classe
+
+
+Instanciar objetos com o operador new
+    Operador new é utilizado para instanciar o objeto
+    ex:
+        var r1 = new retangulo(4,7)
+        r1 instanceof retangulo //true
+
+
+Entender a referencia this
+    this é o objeto global 
+
+    fixando o this -> bind
+    var areaFuncR1 = r1.area.bind(r1);
+    
