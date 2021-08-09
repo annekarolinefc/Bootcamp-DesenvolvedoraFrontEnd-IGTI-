@@ -1,0 +1,19 @@
+POR QUE MÓDULO:
+    - Quando uma aplicação fica muito grande, torna-se necessário modularizar.
+    - Seprar o código em vários scripts traz alguns problemas.
+        - Depedencia entre scripts são implícitas
+        - não há encapsulamento adequado (tudo que é declarado no escopo global pode ser lido/escrito de qualquer script)
+
+    
+    modulo_a.js
+        function fazAlgo(){
+            ...
+        }
+
+        export {fazAlgo}
+
+    modulo_b.js
+        import {fazAlgo} from "./modulo_a.js";
+
+        fazAlgo();
+    
