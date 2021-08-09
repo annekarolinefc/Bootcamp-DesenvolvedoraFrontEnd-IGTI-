@@ -1,0 +1,26 @@
+JAVASCRIPT
+    Linguagem de programação dinamica
+    Linguagem de programação interpretada
+    Executa no navegador (e outras plataformas)
+
+Adicionar script na página
+    - script externo
+    - script inline
+
+SINTAXE BÁSICA
+
+    DECLARAÇÃO DE VARIÁVEIS
+    var variavel1
+    let variavel2
+    const variavel3
+
+    ATRIBUIÇÃO DE VALORES
+    var variavel1 = "Anne"
+    let variavel2 = 28
+    const variavel3 = true
+
+    CHAMADA DE FUNÇÕES
+
+    COMENTÁRIOS
+        - /: Comentário de uma linha
+        - /**/: Comentário de várias linhas
