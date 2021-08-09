@@ -1,0 +1,20 @@
+O QUE É O DOM
+    Document Object Model
+    Estrutura de dados em forma de árvore que representa o documento
+____________________________________________________________________________________
+
+Como modificar elementos na página e reagir a eventos via Javascrip
+    Podemos interagir com os nós das arvores(elementos) via javascript
+        - Ler e alterar propriedades
+        - Registrar listeners de eventos
+        - Inserir/excluir
+
+
+____________________________________________________________________________________
+Obtendo o valor
+    var x = document.getElementById('n1');
+    var z = document.querySelectorAll(".multiple-field"); 
+Verificando se é um numero
+    x.valueAsNumber
+Obtendo valor de uma operação e aplicando na variável. textContent é o conteudo do elemento
+    y.textContent

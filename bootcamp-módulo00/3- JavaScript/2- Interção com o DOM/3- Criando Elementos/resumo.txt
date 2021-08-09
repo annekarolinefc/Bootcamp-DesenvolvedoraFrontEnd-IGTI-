@@ -1,0 +1,19 @@
+FUNÇÃO document.createElement
+    Usado para criar um elemento dinamicamente
+    exemplo:
+        var addButton = document.createElement("button");
+        addButton.textContent = "Adicionar";
+        addButton.type = "button";
+
+Função appendChild
+    div.appendChild(newInput);
+        div.appendChild(deleteButton);
+
+Função remove
+    deleteButton.addEventListener("click", function() {
+            div.remove();
+    });
+
+
+Função insertBefore
+    fs.insertBefore(div, addButton);

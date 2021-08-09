@@ -1,0 +1,32 @@
+FUNÇÃO ADDEVENTLISTENER
+
+    No HTML, via atributos
+        <button id="mybtn" onclick="myHandler()">Click me</div>
+
+    Em Javascript, via addEventListener
+        var el = document.getElementById(mtbtn);
+        el.addEventListener("click", myHandler)
+
+PROPAGAÇÃO DE EVENTOS
+    1. Usuário clica em uma div
+    2. Entra na fase de  - topo para baixo
+    3. Entra na fase de bubbling - dentro para fora
+
+FUNÇÃO STOPPROPAGATIO
+    Se um handler de evento chama a função event.stopPropagation, a propagação do evento é interrompida no ponto que está.
+
+FUNÇÃO PREVENTDEFAULT
+    Se um handler de evento chama a função event.preventDefault, o navegador não executa a ação padrão associada àquele evento , por ex:
+    - abrir um link no evento click
+    - submeter um formulário no evento submit
+
+
+EVENTOS COMUNS
+    focus: elemento recebe foco
+    blur: elemento perde foco
+    input: valor de um elemento muda (inpu, select, textarea)
+    submit: formulário submetido
+    keydown: tecla do teclado pressionada
+    keyup: tecla do teclado liberada
+    click: botão do mouse pressionado e liberado
+    mousemove: mouse movimentando sobre o elemento
