@@ -1,0 +1,23 @@
+ASYNC E AWAIT
+    FUNÇÃO: simplificar código com promises
+
+ASYNC
+    Indicar que dentro dela iremos usar o comando await
+    1ª passo) chamar a função de ASYNC
+        async Function soluçao1(){
+            let frutas = await fetchJson("http://localhost:3000/frutas")
+            let precos = await fetchJson("http://localhost:3000/precos")
+            let table = renderTable(frutas, preços);
+            document.getElementById("app").innerHTML.table;
+            ...
+        }
+        solucao1();
+
+    Uma função async sempre retorna uma PROMISE
+    async function teste(){
+        return "valor";
+    }
+
+AWAIT
+    o compilador gera o then e o callback
+    o AWAIT de frutas espera a execução e depois executa o restante da função solucao1()

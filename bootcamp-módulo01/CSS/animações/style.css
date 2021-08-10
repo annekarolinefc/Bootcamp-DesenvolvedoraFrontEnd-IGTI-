@@ -1,0 +1,131 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.transform-cnt, .animation-cnt {
+  margin: 30px 0
+}
+
+/* Screw () */
+#transform {
+  display: flex;
+  margin: 0 auto;
+  background: linear-gradient(180deg,#ff8a00,red);
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  justify-content: center;
+  padding: 1px;
+  color: white;
+  opacity: .7;
+  /* transform: skew(20deg);
+  animation: skew 3s infinite;
+  animation-direction: alternate; */
+}
+
+#transform:hover {
+  /* transform: translateY(-30px); */
+  /* transform: rotate(-90deg); */
+  /* transform: scaleY(1.2); */
+  /* transform: skew(20deg); */
+  /* transform: matrix(0.7071067811865475, 0.7071067811865476, -0.7071067811865476, 0.7071067811865475, -0.7071067811865497, 34.648232278140824); */
+  transform: rotate(45deg) translate(24px, 25px)
+}
+
+/* @keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+} */
+
+/* Mudança de cor */
+#animation-1 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+  }
+
+@keyframes animation1 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+/* Aumentar e fazer as bordas retas */
+#animation-2 {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: animation2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+
+  @keyframes animation2 {
+    0% {
+      transform: scale(.3);
+      background-color: red;
+      border-radius: 100%;
+    }
+    50% {
+      background-color: orange;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: yellow;
+    }
+  }
+
+#animation-3 {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: red;
+    animation:
+      pulse 3s ease infinite alternate,
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+  }
+
+@keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+}
+
+@keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(150px, 0);
+    }
+
+    80% {
+      transform: translate(-150px, 0);
+    }
+}

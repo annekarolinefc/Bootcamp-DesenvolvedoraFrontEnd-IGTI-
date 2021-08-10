@@ -1,0 +1,52 @@
+Requisições HTTP via Javascript com a API fetch
+
+    1) POR QUE FAZER REQUISIÇOES HTTP
+        Carregar dados dinamicamente (normalmente JSON), sem a necessidade de carregar outra página completa.
+        É possivel implementar a aplicação inteira com um único documento HTML, carregando dados dinamicamente via Javascript. Conhecido como requisição AJAX.
+
+    2) API FETCH
+        fetch("http://minha.api")
+            - executa de forma assíncrona, isto é, não aguarda o fetch terminar.
+            - resposta é encaspulada em uma Promise.
+
+        OPÇÕES DE FETCH
+        fetch("http://minha.api", {/*opções*/})
+            - method: (GET, POST, PUT, DELETE, HEAD, etc)
+            - header: cabeçalhos http
+            - body: corpo da requisição (postar dados codificados em json, por exemplo)
+
+
+METODO GLOBAL FETCH
+    - fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona atraves da rede.
+
+Requisição FETCH
+
+    //PROCURANDO UMA IMAGEM E INSERINDO EM UM ELEMENTO <IMG>
+    // O USO BÁSICO DO FETCH() ACARRETA EM UM ARGUMENTO - A PASTA DO RECURSO QUE VOCE DESEJA BUSCAR-
+    // E RETORNA UMA PROMESSA CONTENDO A RESPONDA - A RESPONSE OBJECT
+    //ESSA É UMA RESPOSTA HTTP, NAO A IMAGEM EM SI
+    //PARA EXTRAIR A IMAGEM DA RESPOSTA, NÓS USAMOS O MÉTODO BLOB()
+    //UM OBJECTURL É CRIADO DA EXTRAÇÃO DO BLOB, QUE ENTÃO É INSERIDO NA IMAGEM
+    var myImage = document.querySelector('img');
+
+    fetch('flowers.jpg')
+    .then(function(response) {
+        return response.blob(); 
+        })
+    .then(function(myBlob) {
+    var objectURL = URL.createObjectURL(myBlob);
+    myImage.src = objectURL;
+        });
+
+
+
+APRENDENDO
+    nomeDaVariávelPromise.then()
+        recebe uma função com parametros que representa a resposta
+        callback
+    nomeDaVariávelPromise.then(resp) => {
+        resp.json().then((array))
+    }
+        
+
+    

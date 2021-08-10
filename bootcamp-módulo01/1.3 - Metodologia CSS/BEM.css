@@ -1,0 +1,40 @@
+/* BEM */
+/* Block */
+.card {
+    max-width: 350px;
+    padding: 10px;
+    color: slategray;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid navy;
+}
+
+/* Element */
+.card__image {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.card__description {
+    text-align: center;
+}
+
+.card__buttons-cnt {
+    margin: 5px 0 5px 20px;
+}
+
+.card__button {
+    padding: 5px;
+}
+
+/* Modifier */
+.card__button--success {
+    background-color: greenyellow;
+}
+
+.card__button--fail {
+    background-color: lightcoral;
+}
+
+
+
+

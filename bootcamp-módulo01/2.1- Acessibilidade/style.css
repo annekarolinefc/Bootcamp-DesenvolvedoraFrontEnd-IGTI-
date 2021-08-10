@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: purple;
+}
+
+.acc-cnt {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: red;
+}
+
+.acc-cnt__text-cnt, .img-cnt__text {
+    margin: 30px;
+    color: green;
+}
+
+ul li {
+    font-size: 8px;
+}
+
+.img-cnt {
+    display: flex; 
+    flex-flow: row wrap;
+}
