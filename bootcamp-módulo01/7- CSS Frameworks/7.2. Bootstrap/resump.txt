@@ -1,0 +1,16 @@
+Criado pelo twitter
+Framework frontend mais popular do mundo
+Mobile-first
+Open-source
+Baseado em HTML, CSS e Javascript (sem Jquery)
+vantagens:
+    - prototipagem ráouda
+    - grande ecossistema
+    - grande coleção de componentes
+    - suporte LESS e SASS
+desvantagens:
+    - monotonia UX
+    - problemas de estilo
+
+Disponivel em: 
+    https://getbootstrap.com/docs/5.1/getting-started/introduction/
