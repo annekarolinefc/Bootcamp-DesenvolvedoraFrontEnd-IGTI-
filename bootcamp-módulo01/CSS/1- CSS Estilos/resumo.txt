@@ -1,0 +1,60 @@
+O QUE É CSS
+    - Significa folha de estilo em cascata
+    - Descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra midia
+    - Deve controlar o layout de várias páginas da web de uma só vez
+    - Folhas de estilo externas são armazenadas em arquivos CSS
+
+
+Funcionalidades básicas
+    Propriedades
+    Modelo de caixa
+    Seletores
+    Funções
+
+
+PROPRIEDADES CSS
+    tamanho
+    corpovariações
+    posicionamento
+    animação 
+    conteudo
+
+MODELO DE CAIXA 
+    margin
+    border
+    padding
+    content
+
+SELETORES
+    usados para encontrar(selecionar) os elementos HTML
+    seletores simples: 
+        *{}
+        h1{}
+        h1, h2, h3{}
+        .title{}
+        h1.title{}
+        #title{}
+
+    seletores combinadores
+        E F{} : elemento F, descendente de E
+        E > F{} : elemento F, filho de E 
+        E + F{} : elemento F, imediatamente precedido de E 
+        E ~ F{} : elemento F, precedido de E (isto é, irmão)
+        E:not(S) : elemento que nao seja s
+    seletors de atributos
+    seletores de pseudo-classe
+    seletores de pseudo-elementos
+
+FUNÇÕES
+    attr()
+    calc()
+    cubic-bezier()
+    hsl()
+    hsla()
+    linear-gradiente()
+    radial-gradiente()
+    repeating-linear-gradiente()
+    repeating-radial-gradiente()
+    rgb()
+    rgba()
+    var()

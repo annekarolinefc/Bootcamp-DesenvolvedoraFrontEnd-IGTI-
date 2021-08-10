@@ -1,0 +1,48 @@
+o que são Pseudo?
+    são atributos especiais que são adicionados aos elementos dependendo de uma ação ou de uma condição específica. Existem 3 tipos de pseudo em CSS
+
+    PSEUDO-CLASSE é usada para definir um estado especial de um elemento
+    PSEUDO-SELETOR é usados para notificar um elemento especificado que esta em determinada posução (filho) de outro elemento
+    PSEUDO-ELEMENTO é usado para estilizar pastes específicas de um elemento
+
+
+PSEUDO-CLASSE
+    :active
+    :visited
+    :hover
+    :link
+    :checked
+    :disabled
+    :empty
+    :enabled
+    :focus
+    :in-tange
+    :invalid
+    :not(selector)
+    :optional
+    :out-of-tange
+    :ready-only
+    :read-write
+    :required
+    :root
+    :target
+    :valid
+
+PSEUDO-SELETOR 
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child(n)
+    :nth-last-child(n)
+    :nth-last-of-type(n)
+    :nth-of-type(n)
+    :only-of-type
+    :only-child
+
+PSEUDO-ELEMENTO
+    ::after
+    ::before
+    ::first-letter
+    ::fisrt-line
+    ::selection
