@@ -1,0 +1,24 @@
+CSS USER AGENT STYLES
+    - CSS Normalize
+    - CSS Reset
+
+    CSS NORMALIZE
+        Pequeno arquivo CSS que fornece consistência entre navegadores no estilo padrão dos elementos HTML.
+        Se não colocar nenhum estilo no h1, o estilo básico será gerado automaticamente pelo navegador.
+        esse estilo básico gerado é conhecido como user agent stylesheet
+        https://github.com/necolas/normalize.css/blob/masters/normalize.css
+
+    CSS RESET 
+        Não precisamos dos estilos padrão dos navegadores, definiremos todos os nossos projetos de acordo com nossas necessidades
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+Introdução ao CSS Frameworks
+Coleção de arquivos CSS que podem ser usados e reutilizados em múltiplos sites ou aplicações web para reduzir o tempo gasto 
+estruturando layouts, definindo tipografias, garantindo funcionamento cross-browser e, algumas vezes, definindo a aparencia, 
+estrutura e comportamento de componentes básicos de UI.

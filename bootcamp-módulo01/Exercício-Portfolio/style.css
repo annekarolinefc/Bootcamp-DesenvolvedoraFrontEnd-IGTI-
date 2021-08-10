@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 9, 61);
+    height: 30px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sobreMim {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 60%;
+    background-color: white;
+    margin: 50px;
+}
+
+.about__photo {
+    width: 80%;
+    padding: 30px;
+}
+
+.sobre {
+    padding: 30px;
+}
+
+.quote {
+    background-color: rgb(61, 9, 61);
+    color: white;
+}
+
+.quote>blockquote {
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2,
+h5 {
+    text-align: center;
+}
+
+.job-experience__experience {
+    background-color: wheat;
+}
+
+.job-experience__jobs {
+    border: 1px solid pink;
+    border-radius: 10px;
+    height: 250px;
+    width: 350px;
+    background-color: pink;
+}
+
+.job-experience__company-logo {
+    height: 150px;
+}
+
+.job-experience__skills {
+    background-color: wheat;
+}
+
+#contato {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*.footer__social-medias {}*/
+
+.footer_social-medias_icons {
+    width: 40px;
+}
+
+#footer__email-phone .footer__copyrights {
+    font: 16px;
+}
