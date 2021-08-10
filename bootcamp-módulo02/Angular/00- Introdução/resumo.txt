@@ -16,4 +16,13 @@ FERRAMENTAS DE DESENVOLVIMENTO NECESSÁRIAS
 
 DOCUMENTAÇÃO OFICIAL
     - https://angular.io/docs
+
+Instalar o Angular CLI  
     
+    no terminal digite: npm install -g @angular/cli
+
+    Aprender comandos básicos.
+        - ng new minha-app
+        - ng serve
+        - ng build
+Instalar a extensão do VSCode
