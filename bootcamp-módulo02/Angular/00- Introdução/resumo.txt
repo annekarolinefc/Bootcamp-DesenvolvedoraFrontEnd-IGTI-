@@ -1,0 +1,19 @@
+O QUE É O ANGULAR
+    Framework e plataforma para desenvolvimento de interfaces de usuário desenvolvido pela Google.
+        - https://angular.io/
+    Caracteristicas:
+        - baseado em componentes
+        - foco em sistemas web (mas também suporta nativo/mobile)
+        - Código em TypeScript e template com sua própria, semelhante a HTML.
+        - Ferramental completo: IDE, compilação, verificação de erros, reload em tempo real. 
+
+FERRAMENTAS DE DESENVOLVIMENTO NECESSÁRIAS
+    - Visual Studio Code (VSCode)
+    - Node.js
+
+    Angular CLI 
+    Extensão para o VSCode
+
+DOCUMENTAÇÃO OFICIAL
+    - https://angular.io/docs
+    
