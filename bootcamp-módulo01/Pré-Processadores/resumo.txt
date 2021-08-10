@@ -1,0 +1,42 @@
+O QUE SÃO PRÉ-PROCESSADORES CSS
+    São interpretadores de código, onde uma sintaxe é convertida para outra sintaxe (SCSS para CSS, por exemplo)
+    Vantagens:
+        - é possivel usar recursos que ainda nao existem no CSS
+        - facilitam a manutenção do codigo, fazendo um código mais limpo
+        - faz os códigos CSS mais flexíveis e reutilizáveis
+        - ajuda a evitar a duplicação de código
+
+        SCSS -> CSS
+
+Instalação
+    npm: npm install -g SASS
+    homebrew: brew install sass/sass/sass
+
+Comando para processar sass em CSS (terminal)
+    sass --watch input.scss:output.CSS
+
+No terminal digite
+    input.sass:style.css
+    
+SASS
+    Variaveis
+    Nesting
+    Mixins
+    Módulos
+    Herança
+    Operadores
+
+Outros pré-processadores
+    - stylus
+
+
+VARIÁVEIS: uma maneira de armazenas informações(qualquer valor css) que 
+    voce deseja reutilizar em toda a sua folha de estilo
+
+NESTING: aninhar os seletores de CSS de uma forma que siga a mesma hierarquia 
+    visual de seu HTML
+MIXINS: fazer grupos de declarações CSS que pode ser reutilizado em todo o site
+MÓDULOS: criar aquivos Sass parciais que contem pequenos trechos de CSS que pode
+    incluir em outros arquivos Sass como módulos.
+HERANÇA
+OPERADORES

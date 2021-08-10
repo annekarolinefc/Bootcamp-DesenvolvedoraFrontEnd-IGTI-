@@ -1,16 +1,22 @@
+/*Usando o modulo criado: _base.sass*/
 @use 'base'
+
+/*Criando a variável*/
 
 $color-purple: rgb(99, 8, 141)
 $font-title: Helvetica, sans-serif
 
+/*Formatando os textos*/
 =formatText($color, $font, $size)
     color: $color
     font-family: $font
     font-size: $size
 
+/*Aplicando a formatação de texto*/
 %purple-font
     +formatText($color-purple, $font-title, 200px / 200px * 100%)
 
+/*Aplicando a formatação de texto*/
 .introduction
     p.introduction__description
         +formatText($color-purple, $font-title, 1.2em)
