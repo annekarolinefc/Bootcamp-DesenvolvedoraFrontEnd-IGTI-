@@ -1,0 +1,6 @@
+USER EXPERIENCE
+    Processo de projetar produtos físicos ou digitais que são utéis, 
+    fáceis de usar e oferecem uma ótima experiência na interação com eles.
+
+UI INTERFACE
+    Parte em que projetamos interfaces de usuário para diferentes softwares e diferentes aparelhos, é nela onde projetamos algo mais direcionado para o produto em si.

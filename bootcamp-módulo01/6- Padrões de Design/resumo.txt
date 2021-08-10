@@ -1,0 +1,32 @@
+DESIGN SYSTEMS
+    É um documento vivo que possui todos os componentes de UI e padrões visuais de uma empresa, marca, produto ou experiencia
+    - identidade do produto
+    - principios da empresa
+    - melhores práticas de usabilidade e acessibilidade
+    - manter a consistência visual e a experiencia de uso como um todo
+    - facilitar a comunicação com os diferentes times
+__________________________________________________________________________________________________________________________
+
+ATOMIC DESIGN
+    Metodologia composta por cinco estágios distintos trabalhando juntos para criar sistemas de design de interface de uma maneira mais deliberada e hierárquica
+    - Atomns
+    - Molecules
+    - Organisms
+    - Templates
+    - Pages
+
+    ATOMOS
+        Blocos de construção básicos que abrangem todas as nossas interfaces de usuários
+        - label
+        - input
+        - button
+    MOLECULES
+        grupos realitamente simples de elementos de IU funcionando juntos como uma unidade.
+        barra de pesquisa: label + input + button
+    ORGANISMS
+        Blocos de construção básicos que abrangem todas as nossas interfaces de usuários
+        Header: logo + navegações + barra de pesquisa
+    TEMPLATES
+        Objetos de nível de página que colocam componentes em um layout e articulam a estrutura de conteudo subjacente do design
+    PAGES
+        Instancias específicas de modelos que mostram a aparencia de uma IU com conteudo representativo real no local
