@@ -1,0 +1,14 @@
+FOUNDATION
+
+    Criado e mantido pela Zurb
+    Open-source
+    Desenvolvido pra ir naturalmente com o framework Rails
+    Vantagens:
+        - Ferramentas compleas
+        - Muito Flexivel
+        - Mais do que apenas componentes de IU
+        - Treinamento e consultoria
+    Desvantagens:
+        - Comunidade pequena
+        - Complexidade
+        - Opções demais
