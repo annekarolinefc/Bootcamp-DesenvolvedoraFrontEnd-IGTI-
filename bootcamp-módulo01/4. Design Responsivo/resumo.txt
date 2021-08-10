@@ -1,0 +1,32 @@
+O QUE SÃO PADRÕES DE WEB DESIGN
+    Sãos os padrões de desenvolvimento visando a responsividade de diferentes dispositivos. sendo eles:
+    - responsive design 
+    - adaptive design 
+    
+RESPONSIVE DESIGN
+    ele é fluido e se adapta ao tamanho da tela, independente do dispositivos
+    usa media queries CSS para alterar estilos com base no dispositivo de destino
+    Vantagens:
+        exige menos trabalho para construir e manter
+    Desvantagens:
+        não oferece tanto controle no design quanto o adaptativo
+
+ADAPTIVE DESIGN
+    usa layouts estaticos baseados em pontos de interrupção
+    geralmente é projetado um site adaptável para seis larguras de tela comuns;
+    Vantagens:
+        mais compativel com dispositivos móveis
+        desenvolve para viewports multiplas e especificas
+        oferece controle sobre o design, conteudo e layout
+    Desvantagens:
+        desenvolvimento e manutenção mais trabalhosa.
+
+
+CELULAR @media (max-width: 480px){
+        
+}
+TABLET: @media (max-width: 720px){
+
+}
+DESKTOP
+

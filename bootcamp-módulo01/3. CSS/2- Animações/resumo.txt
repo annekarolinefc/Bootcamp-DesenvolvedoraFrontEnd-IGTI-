@@ -1,0 +1,22 @@
+ANIMAÇÕES CSS
+    - CSS Transform
+    - CSS Animation
+
+Uma animação permite que um elemento mude gradualmente de um estilo para outro. 
+Você pode alterar quantas propriedades CSS quiser, quantas vezes quiser.
+
+    CSS TRANSFORM
+        - translate(x, y): Define uma translação 2D, movendo o elemento ao longo dos eixos X e Y.
+        - rotate(angle): Define uma rotação 2D, o ângulo é especificado no parâmetro
+        - scale(x, y): Define uma transformação de escala 2D, alterando a largura e altura dos elementos
+        - skew(x, y): Define uma transformação de inclinação 2D ao longo dos eixos X e Y
+        - matrix(n, n, n, n, n, n): Define uma transformação 2D, usando uma matriz de seis valores
+
+    CSS Animation
+        - animation-name: nome
+        - animation-duration: XS, XMS, %
+        - animation-timing-function: ease, ease-out, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2)
+        - animation-delay: Xs, XMS
+        - animation-direction: normal, reverse, alternate, alternate-reverse
+        - animation-fill-mode: forwards, backwards, both, none
+        - animation-play-state: paused, running

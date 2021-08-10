@@ -1,0 +1,124 @@
+O QUE É CSS LAYOUT
+    Pegar elementos contidos em uma página da web e controlar onde eles são posicionados
+    Header
+    Navigation Menu
+    Aside - main content - Aside
+    Footer
+
+COMO FUNCIONA O FLUXO NORMAL DO LAYOUT CSS
+    DISPLAY BLOCK
+        por padrão, se comportam como elementos em bloco
+            display: block
+        Os elementos aparecem empiplados uns sobre os outros
+        O conteúdo de um elemento de nível de bloco é 100% da largura de seu elemento pau e tem a mesma altura de seu conteúdo.
+         EXEMPLO
+             no HTML 
+        <span></span>
+        <span></span>
+        <span></span>
+            no CSS
+        span{
+            display: block;
+            color: white;
+            background-color: green;
+            height: 200px;
+            //width: 50px - acompanha o tamanho da pagina
+        }
+
+
+    DISPLAY INLINE
+        são os elementos em linha
+        Os elementos aparecem um ao lado do outro;
+        O conteudo de um elemento de nível de linha tem a mesma altura e largura de seu conteúdo.
+
+            EXEMPLO
+    no HTML 
+        <span></span>
+        <span></span>
+        <span></span>
+    no CSS
+        span{
+            display: inline;
+            color: white;
+            background-color: green;
+            //height: 200px; - nao pega esses valores
+            //width: 200px; - não pega esses valores
+
+    DISPLAY INLINE-BLOCK   
+        Elementos em bloco e linha
+        é a junção dos comportamento dos valores inline + block
+        é possivel definir uma largura (width) e altura (height) como no display: block
+        é possivel deixar um elemento do lado do outro da mesma forma que fazemos com o display: inline
+
+    EXEMPLO
+    no HTML 
+        <span></span>
+        <span></span>
+        <span></span>
+    no CSS
+        span{
+            display: inline-block; //pega o tamanho dos elementos e fica um do lado do outro
+            color: white;
+            background-color: green;
+            height: 200px;
+            width: 200px;
+        }
+
+CONHECER FORMAS LEGADAS DO CSS LAYOUT
+    float:
+        - left
+        - right
+
+LAYOUT MODERNOS
+    - CSS FLEXBOX
+    - CSS GRID
+
+CSS FLEXBOX
+    - foco no fluxo do conteudo
+    - usado para projetar layouts unidimensionais simplificados, com uma disposição em linha reta;
+    - Define propriedades para o pai(container) e seus filhos (itens)
+    - É mais indicado para os componentes de aplicativos e layouts em escala pequena
+
+    Exemplo:
+        display: flex;
+        flex-flow(Direction + wrap): column wrap; //Em linha (row) ou em coluna(column)
+            //wrap significa que se o espaço for pequeno, ele quebra linha
+        justify-content:
+            - flex-start
+            - flex-end
+            - center
+            - space-between
+            - space-around
+            - space-evenly
+        align-items:
+            - flex-start
+            - flex-end
+            - center
+            - strech
+            - baseline
+        align-content:
+            - flex-start
+            - flex-end
+            - center
+            - strech
+            - space-between
+            - space-arround
+        flex-grow: //tamanho que ocupa
+            - 1 1 1 
+            - 1 2 1 
+        align-self: //alinhamento de alguns items
+            - auto | flex-start | flex-end | center | baseline | strech 
+
+
+CSS GRID
+    Foco na posição do conteudo
+    usado para criação de layouts bidimensionais de complexidade maior
+    Define propriedades para linhas e colunas, COMO UMA TABELA
+    É idela para organizar a estrutura de um esquema com elementos de nível mais elevado, como cabeçalhos, rodapés, seções e sidebar.
+    
+        display: grid;
+        grid-template-column/rows: (3, 1fr);
+        grid-template-areas: "area area area";
+        gap: <grid-row-gap> <grid-column-gap>;
+        place-items: <justify-items> <align-items>;
+        place-content: <justify-content> <align-content>;
