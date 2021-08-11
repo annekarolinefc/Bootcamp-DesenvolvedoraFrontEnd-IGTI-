@@ -1,8 +1,6 @@
-@charset "UTF-8";
-/*Atribuindo as variáveis*/
 body {
   background: lightgrey;
-  margin: 0 auto;
+  margin: 0;
 }
 
 main {
@@ -13,7 +11,7 @@ main {
   row-gap: 10px;
   grid-template-columns: 4, 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "main-title main-title main-title main-title" "about about about about" "quote quote quote quote" "job-experience__experience job-experience__experience job-experience__experience skills" "education education extracurricular extracurricular";
+  grid-template-areas: "main-title main-title main-title main-title" "about about about about" "quote quote quote quote" "job-exp job-exp job-exp skills" "education education extracurricular extracurricular";
 }
 
 header {
@@ -43,7 +41,7 @@ header nav a {
   flex-flow: row nowrap;
 }
 #about #about__photo {
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
 }
 #about #about__text-cnt {
@@ -62,12 +60,12 @@ header nav a {
   font-size: 1.5em;
 }
 
-#job-experience {
-  grid-area: job-experience__experience;
+#job-exp {
   background-color: #ececec;
+  grid-area: job-exp;
   padding: 20px;
 }
-#job-experience #job-experience__experience {
+#job-exp #job-exp__experience {
   display: grid;
   grid-template-columns: 6, 1fr;
   grid-template-rows: auto;
@@ -75,34 +73,34 @@ header nav a {
   row-gap: 10px;
   grid-template-areas: "job1 job1 job2 job2 job3 job3" "job4 job4 job4 job5 job5 job5";
 }
-#job-experience #job-experience__experience .job-experience__jobs {
+#job-exp #job-exp__experience .job-exp__jobs {
   border-radius: 10px;
   background-color: #ddaffc;
-  padding: 40px;
+  padding: 10px;
 }
-#job-experience #job-experience__experience .job-experience__company-logo {
-  max-width: 90px;
-  height: auto;
+#job-exp #job-exp__experience .job-exp__jobs .job-exp__company-logo {
+  max-height: 100px;
+  width: auto;
 }
-#job-experience #job-experience__experience #job-experience__job1 {
+#job-exp #job-exp__experience #job-exp__job1 {
   grid-area: job1;
   text-align: center;
 }
-#job-experience #job-experience__experience #job-experience__job2 {
+#job-exp #job-exp__experience #job-exp__job2 {
   grid-area: job2;
   text-align: center;
 }
-#job-experience #job-experience__experience #job-experience__job3 {
+#job-exp #job-exp__experience #job-exp__job3 {
   grid-area: job3;
   text-align: center;
 }
-#job-experience #job-experience__experience #job-experience__job4 {
+#job-exp #job-exp__experience #job-exp__job4 {
   grid-area: job4;
   text-align: center;
   display: flex;
   align-items: center;
 }
-#job-experience #job-experience__experience #job-experience__job5 {
+#job-exp #job-exp__experience #job-exp__job5 {
   grid-area: job5;
   text-align: center;
   display: flex;
@@ -138,22 +136,23 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-footer #footer__social-medias .footer_social-medias_icons {
+footer #footer__social-medias .footer__social-medias_icons {
   max-width: 40px;
   height: auto;
 }
-footer #footer__social-medias #footer__email-phone p {
+footer #footer__email-phone p {
   margin: 0;
 }
 
 @media (max-width: 480px) {
   main {
     grid-template-columns: 100%;
-    grid-template-areas: "main-title" "about" "quote" "job-experience" "skills" "education" "extracurricular";
+    grid-template-areas: "main-title" "about" "quote" "job-exp" "skills" "education" "extracurricular";
   }
 
   #about {
     flex-flow: column wrap;
+    justify-content: center;
   }
   #about #about__photo {
     max-width: 250px;
@@ -163,11 +162,11 @@ footer #footer__social-medias #footer__email-phone p {
     padding: 20px;
   }
 
-  #job-experience #job-experience__experience {
+  #job-exp #job-exp__experience {
     grid-template-columns: 100%;
     grid-template-areas: "job1" "job2" "job3" "job4" "job5";
   }
-  #job-experience #job-experience__experience #job-experience__job1, #job-experience #job-experience__experience #job-experience__job2, #job-experience #job-experience__experience #job-experience__job3 {
+  #job-exp #job-exp__experience #job-exp__job1, #job-exp #job-exp__experience #job-exp__job2, #job-exp #job-exp__experience #job-exp__job3 {
     display: flex;
     align-items: center;
   }
