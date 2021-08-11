@@ -1,0 +1,29 @@
+1) Pesquisar temas atuais relacionados à acessibilidade na Web;
+2) Definir o assunto da notícia/post;
+3) Dar sua opinião sobre sua importância, seu impacto no desenvolvimento front-end e/ou seu impacto na sociedade;
+4) Informar o link completo da notícia/post;
+5) Informar mês/ano da notícia/post.
+
+EXEMPLO
+Assunto: How Will Biden Transform Government Website Accessibility?
+
+Opinião: A atitude do Biden com relação a acessibilidade no site do governo é louvável, pois mostra que ele se preocupa para que todos tenham acesso à informação independente de sua necessidade especial. Acessibilidade, além de uma boa prática de desenvolvimento, é uma forma de deixar o site com acesso facilitado a todos. 
+
+Link completo: https://www.govtech.com/opinion/How-Will-Biden-Transform-Government-Website-Accessibility.html (Links para um site externo.) 
+
+Data da publicação: 12/02/2020
+
+ASSUNTO: Acessibilidade de deficientes visuais na internet é tema no Fisl14
+OPINIÃO: A materia aborda que a Acessibilidade para deficientes visuais foi uma das pautas do Forum Internacional do Software Livre (Fisl14) e a entrevistada traz algumas dicas de acessibilidade e de alguns softwares para acessibilidade. 
+A matéria é bem pequena e simples de compreender. Então recomendo a todos a leitura.
+LINK COMPLETO: https://www.techtudo.com.br/noticias/noticia/2013/07/acessibilidade-de-deficientes-visuais-na-internet-e-tema-no-fisl14.html
+DATA DA PUBLICAÇÃO: 06/07/2013
+
+______________
+
+ASSUNTO: Acessibilidade, por onde começar?
+OPINIÃO: O post aborda alguns itens imprescindíveis que deixam um site acessível. Como exemplo, indica a inclusão do A- e A+ para alterações de fontes, inclusão de 
+páginas com constrastes e criação da ajuda de acessibilidade. Um conteudo rico em informações e que faz perceber que tornar um site acessível não é complicado, 
+apenas é necessário ter mais atenção e aplicar as técnicas de acessibilidade e, com isso, incluir no público alvo do site as pessoas que possuem alguma deficiencia.
+LINK COMPLETO: https://imasters.com.br/desenvolvimento/acessibilidade-por-onde-comecar
+DATA DA PUBLICAÇÃO: 16/10/2017
