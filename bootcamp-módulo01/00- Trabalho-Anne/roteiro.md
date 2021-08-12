@@ -1,14 +1,14 @@
 #ROTEIRO#
 
-[] HTML semântico
-    [] alterar tags
-        [] header
-        [] main
-        [] section ...
-        [] footer
+[x] HTML semântico
+    [x] alterar tags
+        [x] header
+        [x] main
+        [x] section ...
+        [x] footer
 
-[] Graceful Degradation
-    [] alterar atributos CSS - adequar às regras de acessibilidade
+[x] Graceful Degradation
+    [x] alterar atributos CSS - adequar às regras de acessibilidade
 [] Responsividade
     [] Responsive Design - layout para telas de ate 480px
         @media(max-width: 480px)
