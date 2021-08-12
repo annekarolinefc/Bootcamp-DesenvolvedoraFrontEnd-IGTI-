@@ -1,0 +1,10 @@
+CRUD
+    - CRIAR
+    - LER
+    - ATUALIZAR
+    - DELETAR
+
+Criando a tabela do Doguito Petshop
+    - Nome: Felipe
+    - Email: felipe@alura.com
+    - Novo Cliente: Botões de Editar e Excluir
