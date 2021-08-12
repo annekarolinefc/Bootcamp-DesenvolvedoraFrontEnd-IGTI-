@@ -1,0 +1,13 @@
+CEEP
+    - aplicação de notas
+        Gera conteudo de forma dinâmica
+
+Contem:
+    - uma div
+    - um title
+    - um input
+    - um button
+
+    Ao criar uma nova tarefa possui
+        - um button Concluir, que risca a tarefa
+        - um button Dletar, que deleta a tarefa

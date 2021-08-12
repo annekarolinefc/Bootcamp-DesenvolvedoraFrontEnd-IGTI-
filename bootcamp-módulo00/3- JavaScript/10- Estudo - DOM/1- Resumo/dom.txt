@@ -1,0 +1,14 @@
+O QUE É DOM?
+
+COMO PERCORRER A ÁRVORE DO DOM?
+    percorrer através de métodos
+        - document.querySelector()
+    criar eementos atraves de
+        - document.createElemente("li")
+    selecionar atraves de array atributos
+        - ("[data-list]")
+        - ("[data-form-input]")
+    colocar nós um dentro do outro
+        - appendChild
+    Eventos
+        - addEventListener
