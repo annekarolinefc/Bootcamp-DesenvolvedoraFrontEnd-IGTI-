@@ -1,14 +1,65 @@
 O QUE É DOM?
+    alterar a visualização, sem mexer no HTML
 
-COMO PERCORRER A ÁRVORE DO DOM?
-    percorrer através de métodos
-        - document.querySelector()
+O QUE É O DOCUMENT
+    Representa a página atual
+    aponta para a página atual
+    atraves dele que conseguimos acessar outros objetos da aplicação
+
+MÉTODOS DO DOCUMENT
+    -QUERYSELECTOR("nomeDoSeletor")
+    utilizado para percorrer a árvore do DOM e encontrar o elemento que queremos utilizando JavaScript
+        document.querySelector('p')
+        document.querySelector('h1')
+        document.querySelector('.class')
+
+        acessando o conteudo de texto
+            -TEXTCONTENT
+                document.querySelector('p').textContent
+        alterando o valor do texto
+            document.querySelector('p').textContent = "Comprar maça"
+    -GETELEMENTBYID
+        document.getElementById("id")
+        seleciona o elemento pelo id passado
+    -GETEELEMENTSBYCLASSNAME
+        document.getElementByClassName('classe')
+        retorna um array dos elementos pelo nome da classe
+    -GETELEMENTSBYTAGNAME
+        document.getElementsByTagName('tag')
+        retorna um array dos elementos pleo nome da tag passada
+    -QUERYSELECTORALL
+        document.querySelectorAll(selector)
+        devolve todos os elementos com o mesmo nome      
+
+    
     criar eementos atraves de
         - document.createElemente("li")
     selecionar atraves de array atributos
         - ("[data-list]")
         - ("[data-form-input]")
-    colocar nós um dentro do outro
-        - appendChild
-    Eventos
+    
+
+    -------- EVENTOS -------- 
+    Para escutar um evento, utiliza-seleciona
         - addEventListener
+    para utilizar um escutador de evento precisamos:
+        - evento 
+        - elemento que recebe o evento
+        - o que vai acontecer quando o evento dispara
+
+    -------- COMPORTAMENTO DO FORMULÁRIO -------- 
+    sempre enviar dados
+        Evitar refresh da página
+            - evento.preventDefault()
+            forçar o comportamente
+
+    -------- PROPRIEDADES DO DOM -------- 
+    innerHTML
+        coloca o  valor
+
+    -------- COLOCAR NÓS -------- 
+    appendChild - sempre adiiconar ao final do nó
+    insertBefore(pai, filho): Coloca um nó antes do outro.
+    replaceChild( elemento1, elemento2): Substitui o nó elemento 1 pelo nó elemento2.
+    removeChild(elemento): Remove um nó da árvore.
+        
