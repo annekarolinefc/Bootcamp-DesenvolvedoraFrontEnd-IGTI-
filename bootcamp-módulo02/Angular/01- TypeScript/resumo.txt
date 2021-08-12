@@ -1,0 +1,24 @@
+TYPESCRIPT
+    é uma extensão da linguagem JavaScript que adiciona tipagem estática à linguagem.
+    https://typescriptlang.otg/
+
+    Vantagens:
+    - verificação de erros em tempo de compilação.
+    - maior facilidade para manter o código.
+    - melhor suporte ferramental (autocomplete)
+
+    Extensão:
+        .ts
+
+    Javascript é Typescript 
+    Declarações de tipos
+        - Tipos primitivos
+        - Array
+        - O tipo any
+    Inferencia de tipos 
+    Objetos
+    Interfaces
+    Compatibilidade de tipos
+    Classes
+    
+
