@@ -1,0 +1,28 @@
+ASSUNTO:
+
+TL;DR: Este artigo descreve ....
+por exemplo:
+
+LINK COMPLETO:
+
+MES/ANO: 
+
+
+ASSUNTO: 7 razoes para utilizar o angular 
+
+TL;DR: Este post apresenta 7 razoes para utilizar o angular 
+em uma aplicação web. Ressalta que o Angular é a unica plataforma que
+garante que o MVC funcione perfeitamente. 
+As razões apresentadas são: 
+    1- Consistência do código
+    2- Teste Fácil, devido a facilidade de manipular os módulos angular.js
+    3- MVC simples, visto que o angular implementa o MVC solicitando que você divida seu aplicativo em componentes MVC
+    4- Interface de usuaário formidável
+    5- Modelo de dados POJO
+    6- IU declarativa
+    7- Apoiado pelo Google
+
+
+LINK COMPLETO: https://cynoteck.com/pt/blog-post/7-reasons-to-use-angular-for-your-web-app-in-2020/
+
+MES/ANO: março/2020
